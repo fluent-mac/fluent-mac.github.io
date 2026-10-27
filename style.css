@@ -82,6 +82,7 @@ h3 { font-size: 21px; line-height: 1.2; font-weight: 600; margin: 0 0 8px; }
 .download .icon { width: 96px; height: 96px; }
 .download h2 { margin-top: 16px; }
 .download .lead { margin-bottom: 28px; }
+.download .note { margin: 18px 0 0; color: var(--muted); font-size: 14px; }
 .steps { list-style: none; padding: 0; margin: 64px 0 0; display: grid; gap: 28px; text-align: left; }
 .steps li { display: flex; gap: 16px; align-items: flex-start; }
 .steps span { flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--alt); border: 1px solid var(--line); display: grid; place-items: center; font-weight: 600; font-size: 14px; }
