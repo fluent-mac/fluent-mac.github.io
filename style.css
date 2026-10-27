@@ -88,10 +88,10 @@ h3 { font-size: 21px; line-height: 1.2; font-weight: 600; margin: 0 0 8px; }
 .steps p { margin: 3px 0 0; color: var(--muted); }
 .steps b { color: var(--text); font-weight: 600; }
 
-.dmg { margin: 56px auto 0; display: flex; align-items: center; justify-content: center; gap: 28px; padding: 36px 20px; border-radius: 14px; background: var(--alt); border: 1px solid var(--line); max-width: 560px; }
+.dmg { margin: 56px auto 0; display: flex; align-items: center; justify-content: center; gap: 14px; padding: 32px 44px; border-radius: 14px; background: var(--alt); border: 1px solid var(--line); width: fit-content; }
 .dmg > div { display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
 .dmg img { width: 96px; height: 96px; }
-.dmg i { width: 56px; height: 6px; border-radius: 3px; background: var(--line); position: relative; margin-bottom: 22px; }
+.dmg i { width: 36px; height: 6px; border-radius: 3px; background: var(--line); position: relative; margin-bottom: 22px; }
 .dmg i::after { content: ""; position: absolute; right: -2px; top: -5px; width: 14px; height: 14px; border-top: 6px solid var(--line); border-right: 6px solid var(--line); transform: rotate(45deg) scale(.7); border-radius: 2px; }
 
 footer { background: var(--alt); border-top: 1px solid var(--line); padding: 28px 0 44px; color: var(--muted); font-size: 13px; }
