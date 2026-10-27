@@ -195,3 +195,6 @@ picture { display: contents; }
 .swap .ph:not(.on) { transform: translateY(-26px) scale(.98); transition-duration: .6s; }
 nav a.cur { color: var(--text); }
 @media (prefers-reduced-motion: reduce) { .swap .ph { transition: none; } }
+.swap { font-size: clamp(32px, 6.4vw, 76px); }
+.swap .ph { padding: .04em .06em .16em; max-width: 100%; text-wrap: balance; }
+.hero h1.swap { margin-bottom: 20px; }
