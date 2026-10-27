@@ -188,3 +188,10 @@ picture { display: contents; }
 .frame .shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .compare::before { content: ""; display: block; padding-top: calc(100% / (var(--ar-n, 1.4108))); }
 .lineup { margin-top: 0; }
+
+.swap { display: grid; justify-items: center; }
+.swap .ph { grid-area: 1 / 1; opacity: 0; filter: blur(14px); transform: translateY(26px) scale(.98); transition: opacity .9s cubic-bezier(.2,.7,.2,1), filter .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); pointer-events: none; }
+.swap .ph.on { opacity: 1; filter: none; transform: none; transition-delay: .25s; pointer-events: auto; }
+.swap .ph:not(.on) { transform: translateY(-26px) scale(.98); transition-duration: .6s; }
+nav a.cur { color: var(--text); }
+@media (prefers-reduced-motion: reduce) { .swap .ph { transition: none; } }
